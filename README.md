@@ -5,7 +5,7 @@ Para que este microservice funcione corretamente na sua máquina você deve real
    - Configure o acesso ao seu banco de dados MySQL no arquivo `application.properties`.
    - Exemplo:
      ```properties
-     spring.datasource.url=jdbc:mysql://localhost/mydbs
+     spring.datasource.url=jdbc:mysql://localhost/seu_banco_de_dados
      spring.datasource.username=seu_usuario
      spring.datasource.password=sua_senha
      ```
