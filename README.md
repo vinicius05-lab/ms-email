@@ -1,5 +1,5 @@
 # Sobre o funcionamento do Microservice:
-Para que esse microservice funcione corretamente na sua máquina você deve realizar as configurações corretas do banco de dados mysql e do JavaMailSender no "application.properties":
+Para que este microservice funcione corretamente na sua máquina você deve realizar as configurações corretas do banco de dados mysql e do JavaMailSender no "application.properties":
 
 1. **Banco de Dados MySQL:**
    - Configure o acesso ao seu banco de dados MySQL no arquivo `application.properties`.
@@ -23,7 +23,7 @@ Para que esse microservice funcione corretamente na sua máquina você deve real
      spring.mail.properties.mail.smtp.starttls.enable=true
 
 # Sobre o envio de requisição:
-As requisições devem ser feitas nesse modelo JSON:
+As requisições devem ser feitas no seguinte formato JSON:
 ```json
 {
   "sender": "Vinícius",
