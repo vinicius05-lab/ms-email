@@ -22,7 +22,7 @@ Para que esse microservice funcione corretamente na sua máquina você deve real
      spring.mail.properties.mail.smtp.auth=true
      spring.mail.properties.mail.smtp.starttls.enable=true
 
-## Sobre o envio de requisição:
+# Sobre o envio de requisição:
 As requisições devem ser feitas nesse modelo JSON:
 ```json
 {
@@ -34,7 +34,7 @@ As requisições devem ser feitas nesse modelo JSON:
 }
 ```
 
-### Descrição dos Campos:
+# Descrição dos Campos:
 
 - **sender:** Nome do remetente, ou seja, a pessoa que está enviando o email.
 - **emailFrom:** Endereço de email do remetente.
